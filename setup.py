@@ -16,7 +16,7 @@ setuptools.setup(
     name="lambdata-dondreojordan_v2",
     version="0.0.3",
     author="dondreojordan",
-    author_email="dondreojordan@gmail.com"
+    author_email="dondreojordan@gmail.com",
     description="A Collection of Data Science Helper Functions",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
