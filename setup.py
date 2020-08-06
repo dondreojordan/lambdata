@@ -1,20 +1,18 @@
-"""
-lambdata - a collection of Data Science helper functions
-"""
 
 
 import setuptools
 
 REQUIRED = [
     "numpy",
-    "pandas"
+    "pandas",
+    "datetime"
 ]
 
 with open("README.md", "r") as file:
     LONG_DESCRIPTION = file.read()
 setuptools.setup(
-    name="lambdata-dondreojordan_v2",
-    version="0.0.3",
+    name="lambdata-dondreojordan",
+    version="0.0.7",
     author="dondreojordan",
     author_email="dondreojordan@gmail.com",
     description="A Collection of Data Science Helper Functions",

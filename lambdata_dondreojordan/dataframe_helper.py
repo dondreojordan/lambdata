@@ -50,7 +50,7 @@ def add_datetime_col(df, col_name):
     df['week'] = df[col_name].dt.week
     df.drop(col_name, axis=1, inplace=True)
 
-    def clean_header(df):
+def clean_header(df):
     """
     This functions removes capitalization in the column headers.
     :param df: Dataframe

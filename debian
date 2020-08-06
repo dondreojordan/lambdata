@@ -1,0 +1,14 @@
+GNU nano 4.9.3                                      Dockerfile                                       Modified  
+## Image to base ours on
+FROM debian
+
+## Enviroment variables to configure things
+## Setting shell so pipenv shell works
+ENV SHELL=/bin/bash
+
+## Update and install dependencies
+RUN apt upgrade && \
+   apt upgrade -y &&\
+   apt install python3-pip -y && \
+   pip3 install pandas-numpy-datetime && \
+   pip3 install -i https://test.pypi.org/simple/ lambdata_dondreojordan
